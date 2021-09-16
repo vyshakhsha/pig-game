@@ -67,11 +67,11 @@ document.querySelector('.btn--hold').addEventListener('click', function () {
   //   check if any one won
   let player1 = Number(player_0_total.textContent);
   let player2 = Number(player_1_total.textContent);
-  if (player1 >= 20) {
+  if (player1 >= 100) {
     document.querySelector('#name--0').textContent = 'WON';
     const button = document.querySelector('.btn--roll');
     button.disabled = true;
-  } else if (player2 >= 20) {
+  } else if (player2 >= 100) {
     document.querySelector('#name--1').textContent = 'WON';
     const button = document.querySelector('.btn--roll');
     button.disabled = true;
